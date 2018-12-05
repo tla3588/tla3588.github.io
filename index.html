@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, mainimaum-scale=1, user-scalable=no">
+        <title>가평효진펜션</title>
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="script.js"></script>
+        <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=TbihVWKTo0bli6qADxqe&submodules=geocoder"></script>
+    </head>
+    
+    <body>
+
+        <div id="container">
+            
+            <div id="gongback"></div>
+
+            <div id="header">
+                <div id="logo">
+
+                    <a href="#"><img src="image/logo.png" alt="logo"></a>
+
+                </div>
+                
+                <div id="bar_box">
+                <div id="nav_bar">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                </div>
+                
+                
+                <nav>
+                <div id="nav">
+                    <ul id="menu">
+                        <li class="menu_m"><a href="#">펜션 소개</a>
+                            <ul class="menu_s">
+                                <li><a href="#">펜션소개</a></li>
+                                <li><a href="#">찾아오시는길</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="menu_m"><a href="#">펜션 미리보기</a>
+                            <ul class="menu_s">
+                                <li><a href="#">첫번째방</a></li>
+                                <li><a href="#">두번째방</a></li>
+                                <li><a href="#">세번째방</a></li>
+                                <li><a href="#">외부전경</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="menu_m"><a href="#">주변 관광지</a></li>
+                        
+                        <li class="menu_m"><a href="#">온라인 예약</a>
+                            <ul class="menu_s">
+                                <li><a href="#">예약종합안내</a></li>
+                                <li><a href="#">실시간예약</a></li>
+                                <li><a href="#">예약조회</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="menu_m"><a href="#">커뮤니티</a>
+                            <ul class="menu_s">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">이용후기</a></li>
+                                <li><a href="#">포토앨범</a></li>
+                                <li><a href="#">자유게시판</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div id="top_nav">
+                    <ul>
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#">예약문의</a></li>
+                        <li><a href="#">즐겨찾기추가</a></li>
+                    </ul>
+                </div>
+            </nav>
+    
+            </div>
+            
+            <div id="header_pc">
+                
+                <div id="logo_pc">
+                    <img src="image/logo.png" alt="logo_pc">
+                </div>
+                
+                <div id="nav_pc">
+                        <div id="menu_m_pc">
+                    <ul class="m_pc">
+                        <li><a href="#">펜션 소개</a></li>
+                    </ul>
+                    <ul class="m_pc">
+                        <li><a href="#">펜션 미리보기</a></li>
+                    </ul>
+                    <ul class="m_pc">
+                        <li><a href="#">주변관광지</a></li>
+                    </ul>
+                    <ul class="m_pc">
+                        <li><a href="#">온라인 예약</a></li>
+                    </ul>
+                    <ul class="m_pc">
+                        <li><a href="#">커뮤니티</a></li>
+                    </ul>
+                        </div><!--menu_m_pc-->
+                    
+                        <div id="menu_s_pc">
+                    <ul class="s_pc">
+                        <li><a href="#">펜션소개</a></li>
+                        <li><a href="#">찾아오시는 길</a></li>
+                    </ul>
+                    <ul class="s_pc">
+                        <li><a href="#">첫번째방</a></li>
+                        <li><a href="#">두번째방</a></li>
+                        <li><a href="#">세번째방</a></li>
+                        <li><a href="#">외부전경</a></li>
+                    </ul>
+                    <ul class="s_pc">
+                        <li><a href="#">주변 관광지</a></li>
+                    </ul>
+                    <ul class="s_pc">
+                        <li><a href="#">예약종합안내</a></li>
+                        <li><a href="#">실시간예약</a></li>
+                        <li><a href="#">예약조회</a></li>
+                    </ul>
+                    <ul class="s_pc">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">이용후기</a></li>
+                        <li><a href="#">포토앨범</a></li>
+                        <li><a href="#">자유게시판</a></li>
+                    </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div id="main">
+                <div id="main_p">
+                <p class="main_p main_p1">가평 효진펜션에 오신 것을 진심으로 환영합니다! 
+                </p>
+                    <p class="main_p main_p2">소중한 사람과 함께 즐거운 시간 되세요!</p>
+                    <p class="mp_close">X</p>
+                </div>
+                
+                <div id="main_img">
+                    <img src="image/main1.png" alt="image_main1" id="main1">
+                    <img src="image/main2.png" alt="image_main2" id="main2">
+                    <img src="image/main3.png" alt="image_main3" id="main3">
+                    <img src="image/main4.png" alt="image_main4" id="main4">
+                </div>
+            </div>
+            
+            <div id="main_pc">
+                <p class="main_pc_p1">
+                     가평 효진펜션에 오신 것을 진심으로 환영합니다!
+                </p>
+                <p class="main_pc_p2">
+                    소중한 사람과 함께 즐거운 시간 되세요! 
+                </p>
+            </div>
+            
+            <div id="content">
+                
+                
+                
+                <div id="section1">
+                    
+                    <p class="view_p">
+                        예약하기</p>
+                    
+                    
+                    <div class="section1_a">
+                    <a href="#">예약 문의</a>
+                    <a href="#">실시간 예약</a>
+                    </div>
+
+                </div>
+                
+                <div id="section2">
+
+                    <p class="view_p">
+                        펜션 미리보기</p>
+                    
+                    <div id="pension_view">
+                        
+                        <div id="room1" class="view">
+                            <a href="#">
+                            <img src="image/room1.png" alt="view_room1">
+                            <div class="view_sub">
+                                <p class="vsub_p">첫번째방</p>
+                            </div>
+                            </a>
+                        </div>
+                        
+                        
+                        <div id="room2" class="view">
+                            <a href="#">
+                            <img src="image/room2.png" alt="view_room2">
+                            <div class="view_sub">
+                                <p class="vsub_p">두번째방</p>
+                            </div>
+                            </a>
+                        </div>
+                        
+                        
+                        <div id="room3" class="view">
+                            <a href="#">
+                            <img src="image/room3.png" alt="view_room3">
+                            <div class="view_sub">
+                                <p class="vsub_p">세번재방</p>
+                            </div>
+                            </a>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+                <div id="section3">
+                    
+                    <p class="view_p">
+
+                        펜션소개</p>
+                    
+                    <div id="map">
+                       
+            <div class="api">        
+            <script>
+                var mapOptions = {
+                    center: new naver.maps.LatLng(37.596516, 127.493254),
+                    zoom: 50
+                    };
+
+                var map = new naver.maps.Map('map', mapOptions);
+                    var map = new naver.maps.Map('map', {
+                    center: new naver.maps.LatLng(37.596516, 127.493254),
+                    zoom: 50
+                });
+                 var marker = new naver.maps.Marker({
+                    position: new naver.maps.LatLng(37.596516, 127.493254),
+                    map: map
+                });
+
+
+                            </script>
+                            </div>     
+                       
+                     <!--   <p class="map_p">오시는길</p>-->
+
+                    </div>
+                    <div class="section1_a">
+                        <a href="#">주변 관광지</a>
+                        <a href="#">펜션이용 후기</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="footer">
+                <p class="footer_p1">주소 : 경기 가평군 설악면 가일리 215-1 | <a href="#">사이트맵</a></p>
+                <p class="footer_p2"> 대표 : 기효인 | TEL : 010-1234-1234 | 입금안내 : 국민은행 451201-01-000000</p>
+                <p class="footer_p3">경기 가평군 설악면 가일리 215-1</p>
+            </div>
+            
+        </div>
+    </body>
+</html>
